@@ -1,0 +1,70 @@
+---
+question: "What is the date"
+fields:
+  - no label: date
+---
+question: "What is your name?"
+fields:
+  - no label: your_name
+---
+question: "What is your address?"
+fields:
+  - no label: your_address
+---
+question: "What is your city name?"
+fields:
+  - no label: your_city
+---
+question: "What is your state?"
+fields:
+  - no label: your_st
+---
+question: "What is your zip?"
+fields:
+  - no label: your_zip
+---
+question: "What is your landlord's name?"
+fields:
+  - no label: landlord_name
+---
+question: "What is your landlord's company?"
+fields:
+  - no label: company
+---
+question: "What is your landlord's address?"
+fields:
+  - no label: landlord_address
+---
+question: "What is your landlord's city name?"
+fields:
+  - no label: landlord_city
+---
+question: "What is your landlord's state?"
+fields:
+  - no label: landlord_st
+---
+question: "What is your landlord's zip?"
+fields:
+  - no label: landlord_zip
+---
+question: "What was your previous income?"
+fields:
+  - no label: previous_income
+---
+question: "What is your current income?"
+fields:
+  - no label: current_income
+---
+mandatory: true
+question: |
+  Here is your document.
+subquestion: |
+  Does it meet your approval?
+yesno: user_approves
+attachment:
+  name: Your letter
+  filename: letter
+  docx template file: landlord_letter0.docx
+  valid formats:
+    - pdf
+    - docx
