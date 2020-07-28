@@ -45,7 +45,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
 setup(name='docassemble.landlordLetter',
       version='0.01',
       description=(''),
-      long_description='# docassemble.landlordLetter\n\n\n\n## Author\n\njrjflei@gmail.com\n\n',
+      long_description='# docassemble.landlordLetter\r\n\r\n\r\n\r\n## Author\r\n\r\njrjflei@gmail.com\r\n\r\n',
       long_description_content_type='text/markdown',
       author='',
       author_email='jrjflei@gmail.com',
