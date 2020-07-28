@@ -1,5 +1,5 @@
 ---
-question: "What is the date"
+question: "What is the date?"
 fields:
   - no label: date
 ---
